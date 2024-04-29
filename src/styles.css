@@ -1,1 +1,37 @@
 /* You can add global styles to this file, and also import other style files */
+
+* {
+  box-sizing: border-box;
+
+  /* Colores */
+
+  --bg-50: #fffbeb;
+  --bg-100: #fef3c7;
+  --bg-200: #fde58a;
+  --bg-300: #fbd24e;
+  --bg-400: #fabe25;
+  --bg-500: #f49d0c;
+  --bg-600: #d87607;
+  --bg-700: #bc560a;
+  --bg-800: #923f0e;
+  --bg-900: #78340f;
+  --bg-950: #451a03;
+
+  /* Funte de texto */
+
+  --font-texts: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-texts);
+  width: 100%;
+  height: 100vh;
+}
+
+app-root {
+  width: 100%;
+  height: 100%;
+  background-color: var(--bg-50);
+}
